@@ -4,5 +4,21 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ ]
+  "relatedItems" : [ {
+    "id" : "_cg78UG80EeySNojBK0-FzQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_pz4ZEG80EeySNojBK0-FzQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_cg78UG80EeySNojBK0-FzQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_pz4ZEG80EeySNojBK0-FzQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
