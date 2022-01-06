@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_Z7Ad4G8eEeySNojBK0-FzQ" name="FilePath" prompt="FilePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/Users/Kiran Kumar HM/Desktop/Talend/1/&quot;"/>
-    <contextParameter comment="" internalId="_Z7Ad4W8eEeySNojBK0-FzQ" name="InputFile" prompt="InputFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;refcustomer.csv&quot;"/>
-    <contextParameter comment="" internalId="_Z7Ad4m8eEeySNojBK0-FzQ" name="LookUpFile" prompt="LookUpFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CanadaStateCode.txt&quot;"/>
-    <contextParameter comment="" internalId="_YzK2oG8fEeySNojBK0-FzQ" name="Merge_OutFile" prompt="Merge_OutFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;MergeOut.csv&quot;"/>
-  </context>
+  <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -48,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ddFUvcpsYi1U8WHUCZqUBHmltVD4CxuBHEKo7D+B"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:BZWge9BcoGG5rSRh/5mtVzJoE+MTfBLCfFFU1ChL"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -83,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:GtmIw5WdycPjXFGLQBICi7iMjPfrCaFdbW0Jow6e"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Mk6zvSgPlPc8458N+kjWS5pCurHK+73ZKvc0IZ7P"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -116,7 +111,7 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.FilePath+context.InputFile"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Kiran Kumar HM/Desktop/Talend/1/refcustomer.csv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
@@ -260,7 +255,7 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_2"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.FilePath+context.LookUpFile"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Kiran Kumar HM/Desktop/Talend/1/CanadaStateCode.txt&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
@@ -382,13 +377,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_33441cd3-494f-4294-9c44-0c8dc5c2d934"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GYo/3TpxQb6Rt8/3nDDUJWuL+/+Wq5NtyA02iSxxR9TxAIwIR51jP6b5tyJsmwho0ZRgDv4vvMrv&#13;
-x8IH6YywIQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3fbf6404-7709-4d9b-8e5b-f7c3f5ddddad"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rT5LyqowSGWuo0PbOgpMuZgjatu4pElIhiC/Den656J3ltnGM5YApD7L8TEnbpJVp5UxelB4O8vu&#13;
-qME8F20LqA==</DigestValue></Reference></SignedInfo><SignatureValue>KdPGw+CDfvS6y3in57fOwCb5UpjMpcx1WDJS88SK4c5PZktxRB6mznhYK64z6mCJdjE4qgGTbLHO&#13;
-0S/3e+OaPJT2XLBnvqSrbpS7z+JrMIp8VQprwE7wWGlfO0sbRxFHWJlg4JS7W7Gjul+gf68Qaz5a&#13;
-5HFItJuSbQzaA158QadvjGy9x1E/1hJfMOwLPRL5v8KRBukFm/vmMFzdalvT6ZeZmwJTFObTxu9l&#13;
-JYccwVF9TJh/MA0i9ASdUc6spWwt2VtyXEXpjrgqJzNUo38FowXDwNBrS6vyjb5Eci4XLfad6ZGY&#13;
-YEyyJ4O024/ZaoSvS2cZ6clZNh5McXaerUKDjg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b4c2166c-9771-4e68-9451-4f90c548a378"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>h455CqTdCH8mT2dpWeZLprSK4buCYalE0NJ9JF08V9YP8J9KE67aCRdZq8ub3oc9erkzLAjXilL+&#13;
+XFeiXyGUhA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_657ba690-b608-4d8c-baef-c3f4336edb49"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OLfpXn1nV7+VWCQOaqTdNytI4hH1DthpsPbKVkimdWrxtutMCZi2+2eo7JX/uWWFiue5JCmCMkeK&#13;
+cvDY6MX1RQ==</DigestValue></Reference></SignedInfo><SignatureValue>H+Q5T2qUiE0cpaMma6aKmB7Mg6TEWgJ8loqC86ki72Xw0PmHwhEoNBxd3Ey6n0ZDtuf8i5j93tM3&#13;
+xMWPqgk20IVzCGAcd1rYHzvJHjrtacum44L/znI0t7rLQnhE7LUhTCGvsUg1f4sv8+3pTBPJrW5A&#13;
+2gvblUZTYahyUj4kb6mNjdnDCPVPYDsTHbtyYETh3b8jlxkQOZYVGZKr7TZETbmyfI1+qKCmR1mp&#13;
+pnTTY4Eo/gvEPHqJzwkr4Q7unMQPjjJYMeHY4bTvIFu5LzXXnyIrKzOi4yJnzWvHK/doUOsaqCad&#13;
+TRK9QdOytWtL8rZJ5H5v6WYbXXogbpG+UYH9FA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -410,4 +405,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3fbf6404-7709-4d9b-8e5b-f7c3f5ddddad" Target="#_33441cd3-494f-4294-9c44-0c8dc5c2d934"><Timestamp>2022-01-06 20:53:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_657ba690-b608-4d8c-baef-c3f4336edb49" Target="#_b4c2166c-9771-4e68-9451-4f90c548a378"><Timestamp>2022-01-06 20:57:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
