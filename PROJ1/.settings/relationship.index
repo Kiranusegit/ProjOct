@@ -1,5 +1,20 @@
 [ {
   "baseItem" : {
+    "id" : "_B7fnYG83EeySNojBK0-FzQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9SI2oG82EeySNojBK0-FzQ - Shopmetadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_hgZM0G8cEeySNojBK0-FzQ",
     "version" : "0.1",
     "type" : "job"
