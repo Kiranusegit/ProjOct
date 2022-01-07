@@ -41,5 +41,21 @@
       "id" : "_wfd0VXAFEeySNojBK0-FzQ",
       "name" : "CustMeta_FieldSeparator"
     } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_G2SFUHAGEeySNojBK0-FzQ",
+    "parameterList" : [ {
+      "id" : "_G2s8E3AGEeySNojBK0-FzQ",
+      "name" : "ProductData_File"
+    }, {
+      "id" : "_G2s8FHAGEeySNojBK0-FzQ",
+      "name" : "ProductData_FieldSeparator"
+    }, {
+      "id" : "_G2s8EXAGEeySNojBK0-FzQ",
+      "name" : "ProductData_Encoding"
+    }, {
+      "id" : "_G2s8EnAGEeySNojBK0-FzQ",
+      "name" : "ProductData_RowSeparator"
+    } ]
   } ]
 }
